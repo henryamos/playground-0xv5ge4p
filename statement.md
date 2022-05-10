@@ -8,8 +8,10 @@ This C++ template lets you get started quickly with a simple one-page playground
 using namespace std;
 
 int main() 
-{
-    cout << "Hello, World!";
+{   int name;
+     cout << "Enter your name:!";
+     cin>>name;
+     cout<<"Welcome "<<name<<"to the playground";
     return 0;
 }
 ```
